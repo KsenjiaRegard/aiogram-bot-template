@@ -1,6 +1,6 @@
 from aiogram import executor
 from utils.loader import dp
-import handlers, middlewares
+import handlers, middlewares, filters
 from utils.notification.notify_admins import on_startup_notify
 
 async def on_startup(dispatcher):
